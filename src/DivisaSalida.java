@@ -28,7 +28,7 @@ public class DivisaSalida extends Divisa implements CalculoDeSalida {
 
     @Override
     public double calcularSalida() {
-        if (numeroDeDivisaSalida == 2){
+        if (numeroDeDivisaSalida == 4){
             return valor;
         } else {
             return valor * arrayDivisas[numeroDeDivisaSalida];
