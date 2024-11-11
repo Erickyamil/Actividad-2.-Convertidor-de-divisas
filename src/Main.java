@@ -61,7 +61,7 @@ public class Main {
 
             // imprimir el resultado de la conversión
             System.out.println(cantidadEntrada + " " + nombreOrigen + " son " + 
-                                cantidadSalida + " " + nombreDestino);
+            String.format("%.2f", cantidadSalida) + " " + nombreDestino);
             System.out.println();
             
         } while (opcionEntrada != 1);
