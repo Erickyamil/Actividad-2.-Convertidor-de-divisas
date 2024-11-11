@@ -20,7 +20,7 @@ public class DivisaEntrada extends Divisa implements CalculoDeSalida {
 
     @Override
     public double calcularSalida() { // calculo de divisa de entrada a pesos.
-        if (numeroDeDivisaEntrada == 2){
+        if (numeroDeDivisaEntrada == 4){
             return valor;
         } else {
             return valor * arrayDivisas[numeroDeDivisaEntrada];
